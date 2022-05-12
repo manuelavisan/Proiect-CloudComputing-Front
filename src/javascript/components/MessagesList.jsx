@@ -44,7 +44,7 @@ function MessagesList(){
     return(
         <div id="MessagesList">
             <h2 className="text-2xl font-bold mb-4">Recent test results communicated to pacients:</h2>
-           <ul>
+           <ul className="list-disc">
                 {
                     messages.length ? messages.map(message => 
                         <li key={message.entryID}>
